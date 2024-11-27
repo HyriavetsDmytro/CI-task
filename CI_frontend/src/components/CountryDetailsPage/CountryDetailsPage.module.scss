@@ -1,0 +1,24 @@
+.title {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:24px;
+}
+.img {
+  height: 50px;
+}
+.mainBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+}
+.mainContent {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+

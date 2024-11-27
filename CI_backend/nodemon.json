@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": [
+    ".git",
+    "node_modules/",
+    "dist/"
+  ],
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "exec": "node -r dotenv/config --target=server.ts"
+}
